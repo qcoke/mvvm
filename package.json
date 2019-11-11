@@ -1,0 +1,37 @@
+{
+  "name": "mvvm",
+  "version": "1.0.0",
+  "description": "mvvm test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qcoke/mvvm.git"
+  },
+  "keywords": [
+    "mvvm",
+    "vue"
+  ],
+  "author": "LIUCAN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qcoke/mvvm/issues"
+  },
+  "homepage": "https://github.com/qcoke/mvvm#readme",
+  "devDependencies": {
+    "@webpack-cli/init": "^0.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^4.0.0-beta.8",
+    "style-loader": "^1.0.0",
+    "three": "^0.109.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
