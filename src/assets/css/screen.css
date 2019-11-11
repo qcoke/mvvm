@@ -18,8 +18,6 @@ body,html {
   min-height: 100%;
   background-color: #dedede;
 }
-html {
-}
 .container {
   width: 1000px;
   margin: 0 auto;
