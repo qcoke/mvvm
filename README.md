@@ -54,7 +54,6 @@ window.onload = function(){
         data.a = '123';
     });
 }
-
 ```
 
 #### 知识点
@@ -65,4 +64,6 @@ window.onload = function(){
     - prop        要定义或修改的属性的名称。
     - descriptor  将被定义或修改的属性描述符。
   - 参考链接： https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty
+  
 - Reflect 新API，把原有的 Object 中的部分方法移动到了这个对象里，可以方便的操作语言底层的方法,EX: Object.defineProperty 它一共有13个静态方法
+  - 参考链接：http://es6.ruanyifeng.com/#docs/reflect

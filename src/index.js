@@ -4,6 +4,17 @@ import './assets/css/screen.css';
 let data = {text:'world'};
 let val = data.text;
 
+function observe(data) {
+    // 监听的 DATA 对象
+    if(Object.prototype.toString.call(data) === '[object Object]') {
+        for(let prop in data) {
+            defineReactive(data, prop,data[prop]);
+        }
+    }
+}
+
+
+
 Reflect.defineProperty(data, 'text', {
     get(){
         console.log('get:' + val);
