@@ -8,7 +8,7 @@ body,html {
   font-family: 'Montserrat', sans-serif;
 }
 .container {
-  width: 1000px;
+  width: 800px;
   margin: 0 auto;
 }
 
@@ -26,7 +26,7 @@ body,html {
 #main_panel{
   height: 600px; 
   border: 1px solid #999999;
-  background-color: #fff;
+  background-color: #ffffff;
   position: relative;
 }
 
